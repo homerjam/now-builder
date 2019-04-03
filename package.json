@@ -1,6 +1,6 @@
 {
-  "name": "@nuxtjs/now-builder",
-  "version": "0.14.0",
+  "name": "@homerjam/now-builder",
+  "version": "0.14.0-donkey.1",
   "license": "MIT",
   "repository": "nuxt/now-builder",
   "main": "lib/index.js",
@@ -23,7 +23,7 @@
     "semver": "^6.0.0"
   },
   "devDependencies": {
-    "@now/build-utils": "^0.4.38",
+    "@homerjam/build-utils": "^0.4.38-donkey.1",
     "@nuxtjs/eslint-config": "^0.0.1",
     "codecov": "^3.2.0",
     "eslint": "^5.16.0",

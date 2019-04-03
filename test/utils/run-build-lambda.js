@@ -1,5 +1,5 @@
 const path = require('path')
-const glob = require('@now/build-utils/fs/glob')
+const glob = require('@homerjam/build-utils/fs/glob')
 const fs = require('fs-extra')
 
 function runAnalyze(wrapper, context) {
