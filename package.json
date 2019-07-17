@@ -1,6 +1,6 @@
 {
   "name": "@homerjam/now-builder",
-  "version": "0.15.1-donkey.1",
+  "version": "0.15.1-donkey.2",
   "license": "MIT",
   "repository": "nuxt/now-builder",
   "main": "lib/index.js",
@@ -15,6 +15,7 @@
     "release": "standard-version && git push --follow-tags && npm publish"
   },
   "dependencies": {
+    "@homerjam/build-utils": "^0.8.8-donkey.1",
     "@now/node-bridge": "1.2.2",
     "consola": "2.9.0",
     "esm": "3.2.25",
@@ -24,7 +25,6 @@
     "semver": "6.2.0"
   },
   "devDependencies": {
-    "@homerjam/build-utils": "^0.8.8-donkey.1",
     "@nuxtjs/eslint-config": "^1.0.1",
     "codecov": "^3.5.0",
     "eslint": "^6.0.1",
